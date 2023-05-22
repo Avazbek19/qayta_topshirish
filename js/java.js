@@ -93,16 +93,16 @@
 
 // 2 -- vazifa --------------------------------------------------------------------------------------------------------------------
 
-function numbers() {
-    let a = parseFloat(prompt("son kitiring"))
-    if(a >100 & a <= 999){
-        let b = parseInt(a / 100)
-        let c = parseInt((a - (b * 100)) / 10)
-        let d = (((a - (b * 100)) - c * 10))
-        let e = d * 100 + c * 10 + b
-        console.log(e);
-    } else {
-        alert("100 dan katta va 999 dan kichik son kiriting")
-    }
-}
-numbers()
+// function numbers() {
+//     let a = parseFloat(prompt("son kitiring"))
+//     if(a >100 & a <= 999){
+//         let b = parseInt(a / 100)
+//         let c = parseInt((a - (b * 100)) / 10)
+//         let d = (((a - (b * 100)) - c * 10))
+//         let e = d * 100 + c * 10 + b
+//         console.log(e);
+//     } else {
+//         alert("100 dan katta va 999 dan kichik son kiriting")
+//     }
+// }
+// numbers()
